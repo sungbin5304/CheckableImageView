@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <com.sungbin.checkableimageview.library.CheckableImageView
+        android:id="@+id/test"
         android:layout_width="150dp"
         android:layout_height="150dp"
         app:civ_checkboxSize="30dp"

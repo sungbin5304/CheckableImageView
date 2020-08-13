@@ -3,6 +3,7 @@ package com.sungbin.checkableimageview.library
 import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.Color
+import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.view.Gravity
 import android.view.LayoutInflater
@@ -105,5 +106,8 @@ class CheckableImageView : FrameLayout {
         return (dp * scale + 0.5f)
     }
 
+    fun setImageSrc(src: Drawable) {
+        ivImage.setImageDrawable(src)
+    }
 
 }
