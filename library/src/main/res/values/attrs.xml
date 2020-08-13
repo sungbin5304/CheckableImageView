@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CheckableImageView">
+        <attr name="civ_checkboxSize" format="reference|dimension" />
+        <attr name="civ_linerColor" format="reference|color" />
+        <attr name="civ_innerColor" format="reference|color" />
+        <attr name="civ_imageSrc" format="reference|integer" />
+    </declare-styleable>
+</resources>
